@@ -1,0 +1,21 @@
+* {
+	box-sizing: border-box;
+}
+
+#container {
+	width : 600px;
+	height: 600px;
+	margin: auto;
+}
+
+.tile {
+	height: 200px;
+	width: 200px;
+	transition: background-color 200ms linear;
+	display: inline-block;
+	border: 1px solid black;
+}
+
+h3 {
+	text-align: center;
+}
